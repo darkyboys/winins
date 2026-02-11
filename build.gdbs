@@ -1,0 +1,11 @@
+winins.cpp: out = "winins"
+
+# Rules for cli
+cli:
+    -mkms-sys = [
+        "git clone https://github.com/darkyboys/ms-sys 2>/dev/null",
+        "cd ms-sys && make",
+        "sudo mv ms-sys/bin/ms-sys /usr/local/bin/winins-ms-sys"
+    ]
+   -install = "sudo mv bin/* /usr/local/bin"
+   -clean = "rm -rf bin ms-sys"
