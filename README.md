@@ -25,6 +25,12 @@
 
 ## Installation
 
+### Clone this repository if you haven't
+```bash
+git clone https://github.com/darkyboys/winins
+cd winins
+```
+
 ### 1. Build `ms-sys` automatically
 The helper CLI can clone and build `ms-sys`:
 
