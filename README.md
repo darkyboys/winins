@@ -73,7 +73,7 @@ sudo winins ~/Downloads/Win11.iso sdb 16GiB
 
 ## License
 
-This project is open-source. Use at your own risk.
+This project is open-source under the MIT License.
 `ms-sys` is GPL-licensed.
 
 ---
